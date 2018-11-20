@@ -172,6 +172,7 @@
 .company-logo {
   position: sticky;
   height: 10em;
+  box-shadow: 4px 4px;
   width: auto;
   margin: auto;
   border-radius: 5px;

@@ -245,11 +245,11 @@
 }
 
 .landing-info-image {
-  height: auto;
+  height: 570px;
   border-radius: 5px;
   width: 90%;
   position: relative;
-  left: 60px;
+  left: 70px;
 }
 
 .logo-container {

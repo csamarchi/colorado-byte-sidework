@@ -86,6 +86,10 @@ a:focus {
   text-decoration: none;
 }
 
+a {
+  font-weight: 550;
+}
+
 a#home-nav{
   padding-top: 0px;
   padding-left: 3px;

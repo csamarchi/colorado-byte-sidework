@@ -16,7 +16,7 @@ class LandingPage extends Component {
   handleClick = () => {
     this.props.history.push('/services');
   };
-  
+
   //this is bugged right now!!! we need to make sure/wait the ref/div is ready before trying
   // getScroll() {
   //   let ycord = window.scrollY;
@@ -85,7 +85,7 @@ class LandingPage extends Component {
             <button className="service-button" onClick={this.handleClick}>
               DevOps & Site Reliability Engineering
             </button>
-            <button className="service-button" onClick={this.handleClick}>            
+            <button className="service-button" onClick={this.handleClick}>
               Unique Services
             </button>
           </div>

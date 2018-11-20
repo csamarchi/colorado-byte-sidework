@@ -14,11 +14,12 @@
     height: auto;
   }
 
-  .landing-info-text p {
+  /* .landing-info-text p {
     width: 14.5em;
-    font-size: 14px;
-    line-height: 1.7;
-  }
+    font-size: 20px;
+    line-height: 35px;
+
+  } */
 
   div#services-title {
     margin-top: 4.5em;
@@ -48,12 +49,15 @@
     word-wrap: break-word;
   }
 
-  .landing-info-text p {
+  /* .landing-info-text p {
     width: 21.4em;
     font-size: 14px;
     line-height: 1.7;
-  }
+  } */
 
+  p {
+  font-size: 30px;
+}
   button.service-button {
     margin: 0.1em;
     height: 5.5em;
@@ -95,10 +99,10 @@
     height: auto;
   }
 
-  .landing-info-text p {
+  /* .landing-info-text p {
     width: 15.9em;
-    font-size: 11px;
-  }
+    font-size: 20px;
+  } */
 
   button.service-button {
     height: 4.54em;
@@ -113,7 +117,7 @@
   }
 
   div.video-container {
-    height: 15em;
+    height: 16em;
   }
 }
 
@@ -145,16 +149,16 @@
     word-wrap: break-word;
   }
 
-  
+
   div.landing-info-text {
     font-size: 10px;
     height: 28.5em;
   }
-  
-  .landing-info-text p {
+
+  /* .landing-info-text p {
     width: 15em;
     font-size: 10px;
-  }
+  } */
 
   div.video-container {
     height: 12em;
@@ -210,7 +214,8 @@
 }
 
 .landing-info-container p {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: lighter;
   color: #fff;
 }
 
@@ -218,20 +223,33 @@
   color: #fff;
 }
 
+.landing-info-container {
+  position: relative;
+  top: -5px;
+  height: 590px;
+}
+
+
+/* this one works */
 .landing-info-text {
   display: flex;
   flex-direction: column;
-  padding-left: 3.5em;
-  padding-right: 3.5em;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  font-size: 14px;
+  padding-left: 2.5em;
+  padding-right: 1em;
+  padding-top: -2em;
+  padding-bottom: 2em;
+  margin: 0 0 10px;
+  font-size: 17px;
+  line-height: 29px;
+  padding: 15px;
 }
 
 .landing-info-image {
   height: auto;
   border-radius: 5px;
-  width: 100%;
+  width: 90%;
+  position: relative;
+  left: 60px;
 }
 
 .logo-container {
@@ -247,7 +265,7 @@ div#services-title {
   margin-bottom: 0;
   color: #000;
   background-color: #fff;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 #services {
@@ -255,7 +273,8 @@ div#services-title {
 }
 
 .service-button {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: lighter;
   font-size: 16px;
   background-color: rgb(19, 102, 154);
   color: #fff;

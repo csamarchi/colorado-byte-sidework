@@ -1,0 +1,132 @@
+@media only screen and (min-width: 768px) {
+  div.navbar-collapse.collapse{
+    position: absolute;
+    top: 0;
+    left: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar-icon {
+    position: absolute;
+    height: 80px;
+    width: auto;
+    left: 0;
+    top: -15px;
+  }
+}
+
+.dropdown-menu>li>a {
+  color: #000;
+}
+
+a>a{
+  color: #fff;
+}
+
+a:hover>a{
+  color: #13669a;
+}
+
+li:hover {
+  background-color: #fff;
+  color: #13669a !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+a.home-link-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px !important;
+  width: 51px !important;
+}
+
+a.services-link-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px !important;
+  width: 163px !important;
+}
+
+a.about-link-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px !important;
+  width: 71px !important;
+}
+
+a.contact-link-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px !important;
+  width: 70px !important;
+}
+
+a:hover {
+  text-decoration: none; 
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+a#home-nav{
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+}
+
+a#services-nav{
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+}
+
+a#about-nav{
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+}
+
+a#contact-nav{
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+}
+
+#nav-dropdown {
+  color: #fff;
+}
+
+.nav-bar-icon {
+  position: absolute;
+  height: 80px;
+  width: auto;
+  left: 0px;
+  top: -15px;
+}
+
+.top-nav-bar {
+  background-color: #13669a;
+  border: 0;
+}

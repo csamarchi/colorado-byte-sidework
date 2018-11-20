@@ -1,0 +1,22 @@
+1.) Video has inconsistent loading, may be improved by not having it load from an S3 bucket
+  -Having the video in the project directory may work as well, but would make the project directory bigger
+  -If it is desired to have the video in the project folder, then it needs to be placed inside the public directory, by default that is where image/video files will be accessed
+
+2.) Images to a lesser extent may also benefit from being within the project directory or stored in something else besides an S3 bucket.
+
+3.) The images I chose from what was given was my best guess as to what "fit" the content. Feel free to change any of them.
+
+4.) The services page was made with the idea that there will be room to grow. As of now it's just one page for all six services, but it was made so that a button could be added at the bottom of each card that naviagtes to a page specific to each service once there is enough content to fill a page.
+  -Also, the buttons on the landing page all go to the services page, but could be rerouted to go to the service specific page in the future
+
+
+----------
+Expertise and Services 
+If you want to get fancy you could put a React Perfect Scrollbar in the description section...this way you can have all the boxes fit in one view pane. The description would show first 5 lines and then you would scroll within the box to see more. Not sure if this would look good so don't spend too much time on it. 
+----------
+Current set:
+
+Header Scroll:
+  -Possible. Need to refactor / restyle to accommodate non absolute position
+----------
+

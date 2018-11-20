@@ -1,0 +1,169 @@
+@media only screen and (min-width: 1440px){
+  div.service-card{
+    width: 420px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #services-title {
+    font-size: 60px;
+    margin-top: 1.6em;
+    margin-bottom: 0.83em;
+    text-align: center;
+  }
+
+  .services-page-container p {
+    font-size: 16px !important;
+  }
+
+  /* .services-page-container h2 {
+    font-size: 26px !important;
+    margin-top: 15px !important;
+  } */
+
+  div.service-card{
+    width: 335px;
+  }
+
+  /* img.service-card-img{
+    width: 300px;
+  } */
+}
+
+@media only screen and (max-width: 1023px) {
+  .services-page-container h2 {
+    margin-top: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.service-card-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #services-title {
+    font-size: 60px;
+  }
+
+  h2.service-card-title {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  div.service-card{
+    width: 250px;
+  }
+  
+  img.service-card-img {
+    width: 180px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  div.service-card{
+    width: 350px;
+  }
+  
+  .service-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2.service-card-title {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  h2.service-card-title {
+    font-size: 12px;
+  }
+}
+
+.services-page-container {
+  border: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2.service-card-title {
+  /* font-size: 16px; */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  color: #000;
+}
+
+/* .services-page-container h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  color: #000;
+} */
+
+.services-page-container p {
+  font-size: 11px;
+  color: #838282;
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+  padding-bottom: 1.8em;
+}
+
+.service-card {
+  background-color:#fff;
+  border: solid rgb(19, 102, 154);
+  border-radius: 5px;
+  width: 290px;
+  height: 399px;
+  margin: auto;
+}
+
+p.card-text {
+  overflow: auto;
+  height: 170px;
+}
+
+div.service-card {
+  margin-bottom: 20px;
+}
+
+div.service-card-row {
+  margin-bottom: 20px;
+}
+
+.service-card:hover p {
+  color: #fff;
+}
+
+.service-card:hover h2 {
+  color: #fff;
+}
+
+.service-card:hover{
+  background-color: rgb(19, 102, 154, 0.8);
+  border: none;
+}
+
+.service-card-row {
+  margin-bottom: 30px;
+}
+
+img.service-card-img {
+  display: block;
+  object-fit: cover;
+  max-height: 9em;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#services-title {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 3.5em;
+  margin-bottom: 1.7em;
+}

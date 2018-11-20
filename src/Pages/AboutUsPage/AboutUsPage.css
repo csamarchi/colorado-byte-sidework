@@ -1,0 +1,354 @@
+@media only screen and (min-width: 1025px) {
+  div.above-and-beyond-text {
+    font-size: 15px;
+    font-weight: 800;
+  }
+
+  p#above-title {
+    font-size: 30px;
+    margin-bottom: 0.1em;
+  }
+
+  p#doing-title {
+    font-size: 30px;
+  }
+
+  p#doing-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  div.above-and-beyond-text {
+    top: 950px;
+    font-size: 15px;
+    font-weight: 800;
+  }
+
+  p#above-title {
+    font-size: 30px;
+    margin-bottom: 0.1em;
+  }
+
+  p#doing-title {
+    font-size: 30px;
+  }
+
+  p#doing-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  div.above-and-beyond-text {
+    top: 870px;
+    font-size: 15px;
+    width: 45%;
+    font-weight: 800;
+  }
+
+  p#above-title {
+    font-size: 30px;
+    margin-bottom: 0.1em;
+  }
+
+  p#doing-title {
+    font-size: 30px;
+  }
+
+  p#doing-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img.provider-image {
+    height: 6em;
+    width: auto;
+  }
+
+  div.above-and-beyond-text {
+    top: 830px;
+    font-size: 14px;
+    width: 45%;
+    font-weight: 800;
+  }
+
+  p#above-text {
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  p#above-title {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  div#doing-it-right-text {
+    top: 290px;
+  }
+
+  p#doing-title {
+    font-size: 22px;
+    margin-top: 0.3em;
+  }
+
+  p#doing-text {
+    font-size: 12px;
+  }
+  
+  p.section-titles {
+    font-size: 22px;
+    margin-top: 0.3em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  div.above-and-beyond-text {
+    top: 820px;
+    font-size: 14px;
+    width: 45%;
+    font-weight: 800;
+  }
+
+  p#above-text {
+    font-size: 14px;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  div.above-and-beyond-text {
+    top: 790px;
+    width: 45%;
+    font-weight: 800;
+  }
+
+  p#above-text {
+    font-size: 11px;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.above-and-beyond-text {
+    top: 740px;
+    width: 45%;
+    font-weight: 800;
+  }
+
+  p#above-title {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  p.section-titles {
+    font-size: 20px;
+    margin-bottom: 1px;
+  }
+
+  div.above-and-beyond-text {
+    top: 690px;
+    font-size: 10px;
+    width: 50%;
+  }
+
+  p#above-text {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  img.provider-image {
+    height: 5em;
+    width: auto;
+  }
+
+  div#above-and-beyond-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  div.about-text-container {
+    padding-bottom: 5px;
+  }
+
+  p#above-title {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  div.above-and-beyond-text {
+    top: 630px;
+    font-size: 10px;
+    width: 55%;
+  }
+
+  div#doing-it-right-text {
+    top: 210px;
+  }
+
+  p.section-titles {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  img.provider-image {
+    height: 5em;
+    width: auto;
+  }
+
+  div#above-and-beyond-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  div#doing-it-right-text {
+    top: 200px;
+  }
+
+  div.about-text-container {
+    padding-bottom: 5px;
+  }
+
+  div.above-and-beyond-text {
+    top: 610px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  div#doing-it-right-text {
+    top: 200px;
+  }
+  
+  div.about-text-container {
+    padding-bottom: 5px;
+  }
+  
+  .about-text-container h1 {
+    font-size: 30px;
+  }
+
+  div.above-and-beyond-text {
+    top: 610px;
+    font-size: 10px;
+  }
+}
+
+#above-and-beyond-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(19, 102, 154);
+  color: #fff;
+  padding-top: 20px;
+}
+
+.about-us-container {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text-container {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 30px;
+}
+
+.above-and-beyond-text {
+  position: absolute;
+  top: 1000px;
+  /* background-color: rgb(19, 102, 154, 0.8); */
+  background-color: rgb(105, 105, 105, 0.9);
+  width: 40%;
+  border-radius: 5px;
+  padding: 0.2em;
+}
+
+#above-and-beyond-image {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+}
+
+.about-us-image {
+  width: 100%;
+  height: auto;
+}
+
+#doing-it-right {
+  text-align: center;
+  color: #fff;
+}
+
+#doing-it-right-text {
+  position: absolute;
+  top: 340px;
+  background-color: rgb(19, 102, 154, 0.8);
+  height: 70px;
+  width: 100%;
+}
+
+#doing-it-right-text p {
+  margin-bottom: 0;
+}
+
+#doing-it-right-image {
+  height: auto;
+  width: 100%;
+}
+
+#entrepeneurship-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(19, 102, 154);
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+
+#entrepeneurship-text {
+  max-width: 65em;
+}
+
+#entrepeneurship-title {
+  margin-bottom: 0.5em;
+}
+
+#our-providers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#our-providers p{
+  padding-top: 1em;
+  padding-bottom: 0.1em;
+  max-width: 35em;
+}
+
+.provider-image {
+  height: 7em;
+  width: auto;
+}
+
+#provider-image-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.section-titles {
+  font-size: 30px;
+  margin-bottom: 0;
+}

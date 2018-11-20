@@ -1,0 +1,301 @@
+@media (min-width: 769px) and (max-width: 1023px) {
+  div.video-container {
+    height: 35em;
+  }
+
+  img.company-logo {
+    width: 32em;
+    height: auto;
+  }
+
+  div.landing-info-text {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    height: auto;
+  }
+
+  .landing-info-text p {
+    width: 14.5em;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  div#services-title {
+    margin-top: 4.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.company-name {
+    height: 20em;
+    top: 1px;
+  }
+
+  img.company-logo {
+    width: 25em;
+    height: auto;
+  }
+
+  div.landing-info-container {
+    margin-top: 2em;
+  }
+
+  div.landing-info-text {
+    width: 63em;
+    height: 23.5em;
+    padding: 0.4em;
+    margin-left: 5px;
+    word-wrap: break-word;
+  }
+
+  .landing-info-text p {
+    width: 21.4em;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  button.service-button {
+    margin: 0.1em;
+    height: 5.5em;
+    width: 15em;
+    padding-top: 0.30em;
+    padding-bottom: 0.30em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+  }
+
+  div.video-container {
+    height: 22em;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  div.video-container {
+    height: 22em;
+  }
+
+  .landing-info-text p {
+    width: 15.9em;
+    font-size: 11px;
+  }
+
+  div#services-title {
+    margin-top: 2.2em;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  div.company-name {
+    height: 13em;
+    top: 1px;
+  }
+
+  img.company-logo {
+    width: 14em;
+    height: auto;
+  }
+
+  .landing-info-text p {
+    width: 15.9em;
+    font-size: 11px;
+  }
+
+  button.service-button {
+    height: 4.54em;
+    width: 11.36em;
+    margin: 0.15em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    font-size: 10px;
+    word-wrap: break-word;
+  }
+
+  div.video-container {
+    height: 15em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  img.company-logo {
+    width: 14em;
+    height: auto;
+  }
+
+  div.company-name {
+    height: 12em;
+  }
+
+  div.landing-info-container {
+    margin-top: 10px;
+    height: 21em;
+    word-wrap: break-word;
+  }
+
+  button.service-button {
+    height: 5em;
+    width: 10em;
+    margin: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    font-size: 10px;
+    word-wrap: break-word;
+  }
+
+  
+  div.landing-info-text {
+    font-size: 10px;
+    height: 28.5em;
+  }
+  
+  .landing-info-text p {
+    width: 15em;
+    font-size: 10px;
+  }
+
+  div.video-container {
+    height: 12em;
+  }
+
+  div#services-title {
+    margin-top: 2.2em;
+  }
+}
+
+.company-logo {
+  position: sticky;
+  height: 10em;
+  width: auto;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.company-name {
+  display: flex;
+  position: absolute;
+  height: 430px;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: rgb(19, 102, 154, 0);
+}
+
+.company-name-sticky {
+  display: flex;
+  position: sticky;
+  padding-top: 40px;
+  top: 0;
+}
+
+.landing-container {
+  border: 0;
+}
+
+.landing-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgb(19, 102, 154);
+}
+
+.landing-info-container p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+
+.landing-info-container h2 {
+  color: #fff;
+}
+
+.landing-info-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-size: 14px;
+}
+
+.landing-info-image {
+  height: auto;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+div#services-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#services {
+  background-color: #fff;
+}
+
+.service-button {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  background-color: rgb(19, 102, 154);
+  color: #fff;
+  height: 6.25em;
+  width: 19.6em;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 1.0em;
+  padding-top: 0.62em;
+  padding-bottom: 0.62em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+}
+
+.service-button>a {
+  color: #fff;
+}
+
+
+.service-button:hover {
+  background-color: #fff;
+  color: rgb(19, 102, 154);
+}
+
+.service-link {
+  color: #000;
+  padding-top: 20px;
+}
+
+.service-button:hover>a {
+  color: rgb(19, 102, 154);
+  text-decoration: none;
+}
+
+video#bgvid {
+  width: 100%;
+}
+
+.video-container {
+  width: 100%;
+  height: 35em;
+  overflow: hidden;
+}

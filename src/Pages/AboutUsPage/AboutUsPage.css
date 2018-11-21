@@ -273,14 +273,13 @@
 }
 
 #above-and-beyond-image {
+  object-fit: cover;
+  object-position: 65px;
   width: 100%;
   height: auto;
   max-width: 1200px;
 }
 
-.above-and-beyond-image-container {
-  background-image: url("cropped_table.jpg");
-}
 
 
 .about-us-image {
@@ -342,6 +341,7 @@
   padding-top: 1em;
   padding-bottom: 0.1em;
   max-width: 35em;
+  font-weight: bold;
 }
 
 .provider-image {

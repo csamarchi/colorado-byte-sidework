@@ -22,7 +22,7 @@ render() {
       <div id="entrepeneurship-container">
         <div id="entrepeneurship-text">
           <p className="section-titles" id="entrepeneurship-title">Entrepreneurship is in our DNA</p>
-          <p> ````````````````````````````````</p>
+          <p> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
           <span class="left">We help our customers to accelerate their business.
           <br/>
           Our team consists of members born and bred

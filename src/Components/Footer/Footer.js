@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Footer.css';
 
 class Footer extends Component {
-  
+
   render() {
     return (
       <div className="footer-container">
@@ -16,7 +16,7 @@ class Footer extends Component {
           </div>
         </div>
         <p id="copyright">&copy; 2018 All Rights Reserved</p>
-      </div>    
+      </div>
     );
   }
 }

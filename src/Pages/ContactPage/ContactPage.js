@@ -74,13 +74,17 @@ export default class ContactPage extends Component {
     return (
       <div className="contact-page-container">
         <div>
-          <div className="contact-page-image-text">
-            <div id="image-text">
-              <p>Ready to Work?</p>
-            </div>
-          </div>
+
           <div className="contact-page-image-container">
             <img className="contact-page-image" alt="Hands typing" src="https://s3-us-west-2.amazonaws.com/testbucketforcb/cropped-glenn-carstens-peters-203007-unsplash.jpg" />
+          </div>
+          <div className="test">
+            <br/>
+            <h1> Ready to Work? </h1>
+            <p> - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+            <h5> Get in touch! </h5>
+            <p> Our teams will be more than happy to go above and beyond to start
+            <br/> you on your cloud journey or optimize and managing your existing environment. </p><br/>
           </div>
         </div>
         <div className="contact-page-body">
@@ -115,8 +119,7 @@ export default class ContactPage extends Component {
             {this.state.formSubmitted ? 'Message sent!' : null}
           </div>
           <div className="contact-info-container">
-            <p className="department-title blue-background">Get in touch!</p>
-            <p className="blue-background">Our teams will be more than happy to go above and beyond to start you on your cloud journey or optimize and managing your existing environment.</p>
+
             <div className="contact-row">
               <div className="contact-info">
                 <p className="department-title">General Inquiry</p>

@@ -273,11 +273,10 @@
 }
 
 #above-and-beyond-image {
-  object-fit: cover;
-  object-position: 65px;
   width: 100%;
   height: auto;
   max-width: 1200px;
+  box-shadow: inset 0px 0px 40px 40px #DBA632;
 }
 
 
@@ -287,6 +286,7 @@
   position: relative;
   top: 0px;
   height: auto;
+  box-shadow: 0 0 1px 1px #555;
 }
 
 #doing-it-right {
@@ -316,6 +316,7 @@
   align-items: center;
   text-align: center;
   background-color: rgb(19, 102, 154);
+  box-shadow: 0 0 1px 1px #555;
   color: #fff;
   padding-top: 20px;
   padding-bottom: 1px;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './ServicesPage.css';
 
 class ServicesPage extends Component {
-  
+
   render() {
     return (
       <div className="services-page-container">
@@ -46,7 +46,7 @@ class ServicesPage extends Component {
             </div>
           </div>
         </div>
-      </div>    
+      </div>
     );
   }
 }

@@ -43,6 +43,7 @@
     display: block;
     height: auto;
     margin-top: -110px !important;
+    box-shadow: 0 0 1px 1px #555;
   }
 
   div.contact-page-image-text{
@@ -136,6 +137,7 @@ h1 {
   margin-bottom: 10px;
   text-align: center;
   background-color: rgb(19, 102, 154);
+  box-shadow: 0 0 1px 1px #555;
 }
 
 div#image-text {
@@ -162,6 +164,8 @@ img.contact-page-image {
   display: block;
   height: auto;
   margin-top: -20px;
+  box-shadow: 0 0 1px 1px #555;
+
 }
 
 .contact-row {

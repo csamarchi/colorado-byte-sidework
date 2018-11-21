@@ -288,6 +288,7 @@ div#services-title {
   padding-bottom: 0.62em;
   padding-left: 1.0em;
   padding-right: 1.0em;
+  box-shadow: 2px 2px 2px 2px;
 }
 
 .service-button>a {

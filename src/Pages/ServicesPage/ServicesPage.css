@@ -48,7 +48,8 @@
   }
 
   h2.service-card-title {
-    font-size: 14px;
+    font-size: 18px;
+    padding-top: 8px;
   }
 }
 
@@ -56,7 +57,7 @@
   div.service-card{
     width: 250px;
   }
-  
+
   img.service-card-img {
     width: 180px;
   }
@@ -66,7 +67,7 @@
   div.service-card{
     width: 350px;
   }
-  
+
   .service-cards-container {
     display: flex;
     flex-direction: column;
@@ -120,6 +121,7 @@ h2.service-card-title {
   width: 290px;
   height: 399px;
   margin: auto;
+  box-shadow: 1px 1px;
 }
 
 p.card-text {
@@ -159,6 +161,7 @@ img.service-card-img {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 2px;
 }
 
 #services-title {

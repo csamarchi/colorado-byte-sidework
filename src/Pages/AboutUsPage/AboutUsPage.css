@@ -17,7 +17,7 @@
     font-size: 14px;
   }
 }
-
+/*
 @media only screen and (max-width: 1024px) {
   div.above-and-beyond-text {
     top: 950px;
@@ -95,15 +95,16 @@
 
   p#doing-text {
     font-size: 12px;
+    font-size: italic;
   }
-  
+
   p.section-titles {
     font-size: 22px;
     margin-top: 0.3em;
   }
-}
+} */
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   div.above-and-beyond-text {
     top: 820px;
     font-size: 14px;
@@ -128,8 +129,8 @@
     font-size: 11px;
     font-weight: 800;
   }
-}
-
+} */
+/*
 @media only screen and (max-width: 600px) {
   div.above-and-beyond-text {
     top: 740px;
@@ -158,9 +159,9 @@
   p#above-text {
     font-size: 10px;
   }
-}
+} */
 
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
   img.provider-image {
     height: 5em;
     width: auto;
@@ -193,9 +194,9 @@
   p.section-titles {
     font-size: 20px;
   }
-}
+} */
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
   img.provider-image {
     height: 5em;
     width: auto;
@@ -224,11 +225,11 @@
   div#doing-it-right-text {
     top: 200px;
   }
-  
+
   div.about-text-container {
     padding-bottom: 5px;
   }
-  
+
   .about-text-container h1 {
     font-size: 30px;
   }
@@ -237,7 +238,7 @@
     top: 610px;
     font-size: 10px;
   }
-}
+} */
 
 #above-and-beyond-container {
   display: flex;
@@ -250,15 +251,15 @@
 }
 
 .about-us-container {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   display: flex;
   flex-direction: column;
 }
 
 .about-text-container {
   text-align: center;
-  padding-top: 65px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .above-and-beyond-text {
@@ -277,8 +278,15 @@
   max-width: 1200px;
 }
 
+.above-and-beyond-image-container {
+  background-image: url("cropped_table.jpg");
+}
+
+
 .about-us-image {
   width: 100%;
+  position: relative;
+  top: 0px;
   height: auto;
 }
 
@@ -289,8 +297,7 @@
 
 #doing-it-right-text {
   position: absolute;
-  top: 340px;
-  background-color: rgb(19, 102, 154, 0.8);
+  top: 260px;
   height: 70px;
   width: 100%;
 }
@@ -351,4 +358,16 @@
 .section-titles {
   font-size: 30px;
   margin-bottom: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.empower {
+  font-style: italic;
 }

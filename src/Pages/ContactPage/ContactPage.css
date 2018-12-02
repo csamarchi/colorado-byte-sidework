@@ -36,6 +36,8 @@
   div.contact-info-container {
     margin-top: 0px;
     width: 26em;
+    margin-left: 40px;
+    margin-top: 25px;
   }
 
   img.contact-page-image {
@@ -116,14 +118,15 @@ form.contact-form {
 
 div.contact-page-image-text {
   position: absolute;
-  top: 150px;
-  right: -120px;
-  /* background-color: rgb(19, 102, 154, 0.8); */
+  background-color: rgb(19, 102, 154, 0.8);
   height: 2em;
   width: 80%;
   color: white;
   text-align: center;
   font-size: 25px;
+  text
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+  text-shadow: 0px 0.2px #000
 }
 
 h1 {
@@ -135,9 +138,11 @@ h1 {
   color: white;
   margin-top: 0px;
   margin-bottom: 10px;
+  padding-bottom: 20px;
   text-align: center;
   background-color: rgb(19, 102, 154);
   box-shadow: 0 0 1px 1px #555;
+
 }
 
 div#image-text {
@@ -172,6 +177,7 @@ img.contact-page-image {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
 }
 
 div.contact-row p {

@@ -74,17 +74,17 @@ export default class ContactPage extends Component {
     return (
       <div className="contact-page-container">
         <div>
-
+          <div className="contact-page-image-text">
+            <div id="image-text">
+              <p>Ready to get to Work?</p>
+            </div>
+          </div>
           <div className="contact-page-image-container">
             <img className="contact-page-image" alt="Hands typing" src="https://s3-us-west-2.amazonaws.com/testbucketforcb/cropped-glenn-carstens-peters-203007-unsplash.jpg" />
           </div>
           <div className="test">
             <br/>
-            <h1> Ready to Work? </h1>
-            <p> - - - - - - - - - - - - - - - - - - - - - - - - - </p>
-            <h5> Get in touch! </h5>
-            <p> Our teams will be more than happy to go above and beyond to start
-            <br/> you on your cloud journey or optimize and managing your existing environment. </p><br/>
+            <h2> Get in touch! </h2>
           </div>
         </div>
         <div className="contact-page-body">
@@ -137,14 +137,12 @@ export default class ContactPage extends Component {
             <div className="contact-row">
               <div className="contact-info">
                 <p className="department-title">Administrative</p>
-                <p>Maxwell</p>
                 <a href="tel:+13037475474">(303) 747-5474</a>
                 <br/>
                 <a href="mailto:contact@coloradobyte.com">contact@coloradobyte.com</a>
               </div>
               <div className="contact-info">
                 <p className="department-title">Support Services</p>
-                <p>Jeff - Support Supervisor</p>
                 <a href="tel:+13037475474">(303) 747-5474</a>
                 <br/>
                 <a href="mailto:support@coloradobyte.com">support@coloradobyte.com</a>

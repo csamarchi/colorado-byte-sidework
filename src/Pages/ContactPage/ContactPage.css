@@ -34,10 +34,9 @@
   }
 
   div.contact-info-container {
-    margin-top: 0px;
     width: 26em;
     margin-left: 40px;
-    margin-top: 25px;
+    margin-top: 10px;
   }
 
   img.contact-page-image {
@@ -181,13 +180,13 @@ img.contact-page-image {
 }
 
 div.contact-row p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 div.contact-info a {
   color: #000;
-  font-size: 12px;
+  font-size: 13.5px;
   text-decoration: none;
 }
 

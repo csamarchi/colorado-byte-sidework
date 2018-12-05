@@ -11,8 +11,10 @@ class Footer extends Component {
           <div className="footer-contact">
             <i className="material-icons">phone</i>
             <a href="tel:+13037475474">(303) 747-5474</a>
-            <i className="material-icons">email</i>
-            <a href="mailto:info@coloradobyte.com">info@coloradobyte.com</a>
+              <div>
+                <i className="material-icons">email</i>
+                <a className="email" href="mailto:info@coloradobyte.com">info@coloradobyte.com</a>
+              </div>
           </div>
         </div>
         <p id="copyright">&copy; 2018 All Rights Reserved</p>
